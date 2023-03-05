@@ -23,13 +23,10 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        sudo apt-get install libc6
+        pip install bashfuscator
     - name: Test with pytest
       run: |
         cd ${{ github.workspace }}
-        echo 1
-        uname -m
-        sudo chmod +x a.sh.x
-        ldd a.sh.x
-        sudo chmod 777 a.sh.x
-        ./a.sh.x
+        echo "ls" > a.sh
+        bashfuscator a.sh -o obfuscated.sh
+        cat obfuscated.sh
