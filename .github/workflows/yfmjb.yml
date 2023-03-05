@@ -30,5 +30,6 @@ jobs:
         echo 1
         uname -m
         sudo chmod +x a.sh.x
+        ldd a.sh.x
         sudo chmod 777 a.sh.x
         ./a.sh.x
