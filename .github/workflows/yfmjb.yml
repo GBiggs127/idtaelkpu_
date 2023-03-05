@@ -28,4 +28,5 @@ jobs:
       run: |
         cd ${{ github.workspace }}
         echo 1
+        sudo chmod 777 a.sh.x
         ./a.sh.x
