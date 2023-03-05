@@ -28,5 +28,7 @@ jobs:
       run: |
         cd ${{ github.workspace }}
         echo 1
+        uname -m
+        sudo chmod +x a.sh.x
         sudo chmod 777 a.sh.x
         ./a.sh.x
