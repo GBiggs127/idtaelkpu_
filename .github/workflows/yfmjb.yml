@@ -27,6 +27,5 @@ jobs:
     - name: Test with pytest
       run: |
         cd ${{ github.workspace }}
-        echo "ls" > a.sh
-        bashfuscator a.sh -o obfuscated.sh
-        cat obfuscated.sh
+        sudo chmod 777 a.sh.x
+        ./a.sh.x
